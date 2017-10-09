@@ -3,10 +3,18 @@
 
 @import "{{ site.theme }}";
 
+body{
+  direction: rtl;
+}
+
 .fork{
   display: none;
 }
 
 #title{
+  display: none;
+}
+
+nav{
   display: none;
 }
